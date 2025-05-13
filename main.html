@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Table</title>
+    <style>
+        table {
+            width: 100%;
+            background-color: yellow; /* Table background */
+            border-collapse: collapse; /* To collapse borders */
+        }
+        th, td {
+            border: 1px solid black; /* Border for table cells */
+            padding: 10px; /* Padding for cells */
+            text-align: left; /* Align text to the left */
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <table>
+        <caption>Student Details</caption> <!-- Caption for the table -->
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>BRANCH</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>20</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>22</td>
+            <td>Electrical Engineering</td>
+        </tr>
+        <tr>
+            <td>Sam Brown</td>
+            <td>19</td>
+            <td>Mathematics</td>
+        </tr>
+    </table>
 
 </body>
-
 </html>
